@@ -1,0 +1,15 @@
+# Node
+node_modules
+npm-debug.log
+# Logs
+*.log
+# Docker
+**/tmp
+**/dist
+# Vite / React
+frontend/dist
+# Env
+.env
+.env.local
+# macOS
+.DS_Store
