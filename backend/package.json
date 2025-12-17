@@ -5,7 +5,8 @@
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "test": "node -e \"console.log('Tests backend non implémentés (à faire dans le TP).'); process.exit(0);\""
   },
   "keywords": [],
   "author": "",
