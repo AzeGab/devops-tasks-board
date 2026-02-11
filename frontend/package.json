@@ -7,7 +7,8 @@
   "dev": "vite",
   "build": "vite build",
   "preview": "vite preview",
-  "test": "node -e \"console.log('Tests frontend non implémentés (à faire dans le TP).'); process.exit(0);\""
+  "test": "node -e \"console.log('Tests frontend non implémentés');process.exit(0);\"",
+  "lint": "eslint . --ext .js,.jsx"
   },
   "dependencies": {
     "react": "^19.2.0",
@@ -18,7 +19,9 @@
     "@types/react": "^19.2.5",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^5.1.1",
-    "eslint": "^9.39.1",
+    "eslint": "^9.39.2",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
