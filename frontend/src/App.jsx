@@ -108,7 +108,7 @@ function App() {
         margin: "0 auto",
       }}
     >
-      <h1>DevOps Tasks Board</h1>
+      <h1>DevOps Tasks Board RENDER</h1>
       <p style={{ color: "#555" }}>
         Mini application pédagogique pour suivre les tâches DevOps / DevSecOps
         d&apos;un projet.
